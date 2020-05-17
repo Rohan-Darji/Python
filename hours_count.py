@@ -1,6 +1,7 @@
 # Program to read through the mbox-short.txt and figure out the distribtion by hour of the day for each of the messages.
 # You can pull dowm the hour from the 'From ' line and then splitting them up by using the colon.
 # Once you have accumulated the counts for each hour, print out the counts, sorted by hour.
+# Go to 'http://www.pythonlearn.com/code/mbox-short.txt' to download the text document.
 
 d = dict()
 file = open('mbox-short.txt')
